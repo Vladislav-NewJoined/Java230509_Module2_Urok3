@@ -6,7 +6,7 @@ import java.net.URL;
 import java.net.URLConnection;
 
 // Курс валют скачивается отсюда, API Центробанка: https://cbr.ru/scripts/XML_dynamic.asp?date_req1=31/03/2023&date_req2=31/03/2023&VAL_NM_RQ=R01235
-public class Task2_3_2 {
+public class Task2_3_11 {
 
     public static void main(String[] args) throws IOException {
         System.out.println("Задание: \n11.\tВыведите курс валют за 1 февраля каждого года с 1994 до текущего года\n\nРешение: ");
