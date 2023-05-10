@@ -5,28 +5,16 @@ public class Task2_3_3 {
     public static void main(String[] args) {
         System.out.println("Задание: \n3.\tВыведите буквы от а до я (подсказка: for (char letter=’a’; letter ’я’; letter++) )\n\nРешение: ");
 
+        /*инфо с примером решения здесь: https://www.cyberforum.ru/java-j2se/thread423856.html*/
 
-            System.out.println();
+        for(char letter = 'а';letter<='ю';letter++) {
+            System.out.print(letter + ", ");
+        }
+
+        for(char letter = 'я';letter =='я';letter++) {
+            System.out.print(letter + " ");
+        }
+
+        System.out.println();
     }
-
-////        Пример 1 ППППППППППППППППППППППППППППППППППП
-//    public static void main(String[] args) {
-////        char[] alphabet = new char[0];
-//        char[] alphabet = new char[0];
-//        for (char c = 'a'; c <= 'z'; c++) {
-//
-//            /*alphabet[c - 'a'] = c;*/
-//            alphabet = "abcdefghijklmnopqrstuvwxyz".toCharArray();
-//
-//        }
-//        System.out.println(alphabet);
-//
-//
-//    }
-////        Конец Примера 1 КККККККККККККККК
-
-
-
-
-
 }
